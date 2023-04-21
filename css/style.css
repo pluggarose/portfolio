@@ -73,3 +73,15 @@ footer{
     color: var(--white);
     background-color: var(--blue);
 }
+
+.main-nav a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: var(--black);
+}
+
+.main-nav a:hover{
+    color: var(--blue)
+}
