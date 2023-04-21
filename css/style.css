@@ -62,16 +62,34 @@ button, a{
     line-height: 100%;
 }
 
-:root{
-    --black: #031923;
-    --yellow: #E5BB33;
-    --blue: #205B75;
-    --white: #FFFFFF;
+button{
+
+    padding: 6px 10px 10px;
+    color: var(--blue);
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 8px;
+}
+
+button:hover{
+
+    padding: 6px 10px 10px;
+    color: var(--white);
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    border-radius: 8px;
 }
 
 footer{
     color: var(--white);
     background-color: var(--blue);
+}
+
+:root{
+    --black: #031923;
+    --yellow: #E5BB33;
+    --blue: #205B75;
+    --white: #FFFFFF;
 }
 
 .main-nav a{
@@ -85,3 +103,4 @@ footer{
 .main-nav a:hover{
     color: var(--blue)
 }
+
