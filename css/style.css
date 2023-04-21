@@ -223,3 +223,6 @@ footer{
     background-image: url(../img/phone.svg)
 }
 
+.avatar{
+    border-radius: 50%;
+}
