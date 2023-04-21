@@ -1,3 +1,7 @@
+body{
+    color: var(--black);
+}
+
 h1{
     font-family: 'Montserrat';
     font-style: normal;
@@ -46,3 +50,14 @@ button, a{
     line-height: 100%;
 }
 
+:root{
+    --black: #031923;
+    --yellow: #E5BB33;
+    --blue: #205B75;
+    --white: #FFFFFF;
+}
+
+footer{
+    color: var(--white);
+    background-color: var(--blue);
+}
