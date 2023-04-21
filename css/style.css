@@ -104,3 +104,79 @@ footer{
     color: var(--blue)
 }
 
+.social {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }
+    .social li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }
+.social li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.social-link{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--black);
+    border-radius: 5e+07px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-link:hover{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--black);
+    border-radius: 5e+07px;
+    background-color: var(--yellow);
+}
+
+.social-link_github{
+    background-image: url(../img/github.svg);
+}
+
+.social-link_tg{
+    background-image: url(../img/telegram.svg);
+}
+
+.social-link_vk{
+    background-image: url(../img/vk.svg);
+}
+
