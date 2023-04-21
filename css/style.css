@@ -63,7 +63,6 @@ button, a{
 }
 
 button{
-
     padding: 6px 10px 10px;
     color: var(--blue);
     background-color: var(--white);
@@ -108,12 +107,13 @@ footer{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    }
-    .social li {
+}
+
+.social li {
     display: inline-block;
     margin: 0;
     padding: 0;
-    }
+}
 
 .visually-hidden {
     position: absolute;
@@ -129,9 +129,11 @@ footer{
 }
 
 .social {
+    display: flex;
     margin: 0;
-    padding: 0;
     list-style-type: none;
+    padding: 0px;
+    gap: 20px;
 }
 
 .social li {
@@ -182,9 +184,11 @@ footer{
 }
 
 .contact {
+    display: flex;
     margin: 0;
-    padding: 0;
     list-style-type: none;
+    padding: 0px;
+    gap: 40px;
 }
 
 .contact li {
