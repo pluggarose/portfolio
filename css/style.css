@@ -132,7 +132,8 @@ footer{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    }
+}
+
 .social li {
     display: inline-block;
     margin: 0;
@@ -178,5 +179,47 @@ footer{
 
 .social-link_vk{
     background-image: url(../img/vk.svg);
+}
+
+.contact {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contact li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-link{
+    display: block;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 42px;
+    color: var(--black);
+    text-transform: none;
+    text-decoration: none;
+}
+
+.contact-link:hover{
+    display: block;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 42px;
+    color: var(--blue);
+    text-transform: none;
+    text-decoration: none;
+}
+
+.contact-link_mail{
+    background-image: url(../img/email.svg);
+}
+
+.contact-link_phone{
+    background-image: url(../img/phone.svg)
 }
 
