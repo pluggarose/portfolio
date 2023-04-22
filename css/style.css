@@ -1,5 +1,6 @@
-::before,
-::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -12,6 +13,11 @@
 
 body{
     color: var(--black);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
 }
 
 h1{
@@ -47,14 +53,6 @@ h3{
     line-height: 120%;
 }
 
-p{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-}
-
 button, a{
     font-family: 'Open Sans';
     font-style: normal;
@@ -66,7 +64,7 @@ button, a{
 button{
     padding: 6px 10px 10px;
     color: var(--blue);
-    background-color: var(--white);
+    background-color: transparent;
     border: 1px solid var(--blue);
     border-radius: 8px;
 }
@@ -91,8 +89,7 @@ footer{
 .main-nav a{
     display: inline-block;
     text-decoration: none;
-    margin: 0 auto;
-    padding: 0 20px;
+    padding: 10px 15px;
     color: var(--black);
 }
 
@@ -141,9 +138,7 @@ footer{
 
 .social-link{
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    display: block;
     padding: 10px;
     gap: 10px;
     width: 50px;
@@ -155,16 +150,6 @@ footer{
 }
 
 .social-link:hover{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px;
-    gap: 10px;
-    width: 50px;
-    height: 50px;
-    border: 1px solid var(--black);
-    border-radius: 5e+07px;
     background-color: var(--yellow);
 }
 
