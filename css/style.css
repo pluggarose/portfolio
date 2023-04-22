@@ -72,6 +72,7 @@ button{
 button:hover{
     color: var(--white);
     background-color: var(--blue);
+    cursor: pointer;
 }
 
 footer{
@@ -144,7 +145,7 @@ footer{
     width: 50px;
     height: 50px;
     border: 1px solid var(--black);
-    border-radius: 5e+07px;
+    border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -191,14 +192,7 @@ footer{
 }
 
 .contact-link:hover{
-    display: block;
-    padding: 10px;
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 42px;
     color: var(--blue);
-    text-transform: none;
-    text-decoration: none;
 }
 
 .contact-link_mail{
