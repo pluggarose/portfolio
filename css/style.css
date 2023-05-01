@@ -93,6 +93,10 @@ footer{
     margin: 0;
 }
 
+.nav {
+    display: flex;
+}
+
 .main-footer .container {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -159,7 +163,7 @@ footer{
 
 .social-link{
     box-sizing: border-box;
-    display: block;
+    display: flex;
     padding: 10px;
     gap: 10px;
     width: 50px;
@@ -202,7 +206,7 @@ footer{
 }
 
 .contact-link{
-    display: block;
+    display: flex;
     padding: 10px;
     background-repeat: no-repeat;
     background-position: left;
@@ -307,7 +311,7 @@ footer{
     margin-top: 0px;
 }
 
-.text-wraper{
+.text-wrapper{
     max-width: 800px;
 }
 
@@ -335,4 +339,12 @@ footer{
 }
 .contacts, .interests, .skills, .about {
     margin-bottom: 120px;
+}
+
+p{
+    margin: 0;
+}
+
+p + p {
+    margin-top: 15px;
 }
