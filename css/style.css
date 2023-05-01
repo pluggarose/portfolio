@@ -18,7 +18,7 @@ nav{
 
 body{
     color: var(--black);
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', "Arial", sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -26,7 +26,7 @@ body{
 }
 
 h1{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', "Arial", sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -36,7 +36,7 @@ h1{
 }
 
 .subtitle{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', "Arial", sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 38px;
@@ -48,7 +48,7 @@ h1{
 }
 
 h2{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', "Arial", sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -58,7 +58,7 @@ h2{
 }
 
 h3{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', "Arial", sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -66,7 +66,7 @@ h3{
 }
 
 button, a{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', "Arial", sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -91,10 +91,6 @@ footer{
     color: var(--white);
     background-color: var(--blue);
     margin: 0;
-}
-
-.nav {
-    display: flex;
 }
 
 .main-footer .container {
@@ -151,7 +147,7 @@ footer{
     display: flex;
     margin: 0;
     list-style-type: none;
-    padding: 0px;
+    padding: 0;
     gap: 20px;
 }
 
@@ -163,7 +159,7 @@ footer{
 
 .social-link{
     box-sizing: border-box;
-    display: flex;
+    display: block;
     padding: 10px;
     gap: 10px;
     width: 50px;
@@ -194,7 +190,7 @@ footer{
     display: flex;
     margin: 0;
     list-style-type: none;
-    padding: 0px;
+    padding: 0;
     gap: 40px;
     margin-bottom: 40px;
 }
@@ -206,8 +202,8 @@ footer{
 }
 
 .contact-link{
-    display: flex;
-    padding: 10px;
+    display: block;
+    padding: 5px;
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 42px;
@@ -308,7 +304,7 @@ footer{
 
 .name h1{
     margin-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .text-wrapper{
@@ -326,6 +322,7 @@ footer{
     justify-content: space-between;
     margin: 0;
     margin-bottom: 40px;
+    gap: 40px;
 }
 
 .skill-top h2{
@@ -342,8 +339,8 @@ footer{
 }
 
 p{
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 p + p {
