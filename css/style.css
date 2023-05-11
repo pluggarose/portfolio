@@ -368,6 +368,13 @@ p + p {
         font-size: 18px;
     }
 
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .subtitle {
         font-size: 28px;
     }
@@ -396,6 +403,18 @@ p + p {
 
     .contacts, .interests, .skills, .about, .name, .main-header {
         margin-bottom: 80px;
+    }
+
+    .main-nav{
+        padding: 0;
+        gap: 0px;
+    }
+    .main-nav a{
+        padding: 10px 15px 10px 15px;
+    }
+
+    .name{
+        gap:50px;
     }
 }
 
@@ -460,11 +479,12 @@ p + p {
         justify-content: center;
         align-items: center;
         padding: 0px;
+        gap: 0;
     }
 
     .main-nav a{
         padding: 20px 30px;
-        gap: 10px;
+        gap: 0;
         text-align: center;
     }
 
@@ -504,6 +524,11 @@ p + p {
 
     .contacts, .interests, .skills, .about, .name, .main-header {
         margin-bottom: 60px;
+    }
+
+    .skill-top div button{
+        width: 100%;
+        text-align: center;
     }
 }
 
