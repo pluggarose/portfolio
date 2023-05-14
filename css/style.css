@@ -194,6 +194,7 @@ footer{
     gap: 40px;
     margin-bottom: 40px;
     flex-wrap: wrap;
+    padding-right: 0;
 }
 
 .contact li {
@@ -388,13 +389,9 @@ p + p {
     }
 
     .main-header img {
+        line-height: 0;
         width: 60px;
         height: 60px;
-    }
-
-    .main-nav{
-        padding: 10px 15px;
-        gap: 10px;
     }
 
     .skill-top{
@@ -527,26 +524,6 @@ p + p {
     }
 
     .skill-top div button{
-        width: 100%;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 380px) {   
-    .skill-top{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .skill-top div{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        gap: 10px;
-    }
-    .skill-top div button{
-        width: 100%;
         text-align: center;
     }
 
@@ -555,12 +532,45 @@ p + p {
         padding-top: 30px;
         
     }
+
+    .contact{
+        margin-bottom: 30px;
+    }
+
+    .contact a{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 48px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {   
+    .skill-top{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .skill-top div{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .skill-top div button{
+        width: 100%;
+        text-align: center;
+
+    }
+
 }
 
 @media screen and (max-width: 360px) { 
     .contact{
         flex-direction: column;
-        gap:20px;
+        gap:15px;
+        margin-bottom: 20px;
     }
     .contact li a{
         padding: 8px 0px 8px 42px;
@@ -569,5 +579,10 @@ p + p {
     .contacts, .interests, .skills, .about, .name, .main-header {
         margin-bottom: 50px;
     }
+
+    .social{
+        gap: 15px;
+    }
+
 
 }
