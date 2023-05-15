@@ -149,6 +149,7 @@ footer{
     list-style-type: none;
     padding: 0;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .social li {
@@ -190,7 +191,6 @@ footer{
     display: flex;
     margin: 0;
     list-style-type: none;
-    padding: 0;
     gap: 40px;
     margin-bottom: 40px;
     flex-wrap: wrap;
@@ -295,6 +295,10 @@ footer{
     margin-bottom: 120px;
 }
 
+.main-header{
+    line-height: 0;
+}
+
 .name{
     display: flex;
     flex-direction: row;
@@ -389,7 +393,6 @@ p + p {
     }
 
     .main-header img {
-        line-height: 0;
         width: 60px;
         height: 60px;
     }
@@ -412,6 +415,14 @@ p + p {
 
     .name{
         gap:50px;
+    }
+
+    .contacts ul{
+        padding-inline-start: 0;
+    }
+
+    .contacts a{
+        padding: 7px 0 7px 42px;
     }
 }
 
@@ -542,6 +553,10 @@ p + p {
         padding-bottom: 8px;
         padding-left: 48px;
     }
+
+    .contacts a{
+        padding: 7px 0 7px 42px;
+    }
 }
 
 
@@ -584,5 +599,13 @@ p + p {
         gap: 15px;
     }
 
+    .skill-top{
+        gap: 20px;
+        line-height: 20px;
+    }
 
+    .skill-level{
+        margin-top: 8px;
+        margin-bottom: 22px;
+    }
 }
