@@ -194,7 +194,7 @@ footer{
     gap: 40px;
     margin-bottom: 40px;
     flex-wrap: wrap;
-    padding-right: 0;
+    padding: 0;
 }
 
 .contact li {
@@ -415,10 +415,6 @@ p + p {
 
     .name{
         gap:50px;
-    }
-
-    .contacts ul{
-        padding-inline-start: 0;
     }
 
     .contacts a{
