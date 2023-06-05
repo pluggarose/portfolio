@@ -23,6 +23,7 @@ body{
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
+    background-color: var(--white);
 }
 
 h1{
@@ -223,8 +224,16 @@ footer{
     background-image: url(../img/email.svg);
 }
 
+.dark-theme .contact-link_mail{
+    background-image: url(../img/dark-theme/email.svg);
+}
+
 .contact-link_phone{
     background-image: url(../img/phone.svg);
+}
+
+.contact-link_phone{
+    background-image: url(../img/dark-theme/phone.svg);
 }
 
 .avatar{
@@ -357,6 +366,15 @@ p + p {
 
 .nav-btn{
     display: none;       
+}
+
+.dark-theme{
+    --black: #CCCCCC;
+    --white: #031923;
+}
+
+.dark-theme .social-link{
+    background-color: #CCCCCC;
 }
 
 @media screen and (max-width: 1024px) {   
