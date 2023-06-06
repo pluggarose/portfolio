@@ -224,9 +224,9 @@ footer{
     color: var(--blue);
 }
 
-.dark-theme .contact-link:hover{
+/* .dark-theme .contact-link:hover{
     color: var(--blue);
-}
+} */
 
 .contact-link_mail{
     background-image: url(../img/email.svg);
