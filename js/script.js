@@ -6,29 +6,31 @@ const skill = {
     },
     {
         item: "css",
-        level: 15,
+        level: 10,
         iconPath: "img/css.svg",
     },
     {
         item: "figma",
-        level: 15,
+        level: 5,
         iconPath: "img/figma.svg",
     },
-        {item: "C++",
-        level: 15,
+    {
+        item: "C++",
+        level: 25,
         iconPath: "img/c++.svg",
     },
     {
         item: "java",
-        level: 15,
+        level: 35,
         iconPath: "img/photoshop.svg",
     },
-        {item: "photoshop",
-        level: 15,
+    {
+        item: "photoshop",
+        level: 21,
         iconPath: "img/c++.svg",
     }],
     generateList: function(parentElement) {
-        this.data.forEach(function(element) {
+        this.data.forEach(element => {
             const dtt = document.createElement('dt');
             dtt.classList.add('skill-item');
             dtt.textContent = element.item;
@@ -42,8 +44,8 @@ const skill = {
             divv.textContent = `${element.level}%`;
 
             ddd.appendChild(divv);
-            parentElement.appendChild(dtt);
-            parentElement.appendChild(ddd);
+            
+            parentElement.append(dtt,ddd);
         });
     }
 };
