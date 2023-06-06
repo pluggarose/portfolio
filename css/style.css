@@ -176,6 +176,10 @@ footer{
     background-color: var(--yellow);
 }
 
+.dark-theme .social-link:hover{
+    background-color: var(--yellow);
+}
+
 .social-link_github{
     background-image: url(../img/github.svg);
 }
@@ -220,6 +224,10 @@ footer{
     color: var(--blue);
 }
 
+.dark-theme .contact-link:hover{
+    color: var(--blue);
+}
+
 .contact-link_mail{
     background-image: url(../img/email.svg);
 }
@@ -232,7 +240,7 @@ footer{
     background-image: url(../img/phone.svg);
 }
 
-.contact-link_phone{
+.dark-theme .contact-link_phone{
     background-image: url(../img/dark-theme/phone.svg);
 }
 
