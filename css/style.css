@@ -531,6 +531,7 @@ p + p {
         width: 30PX;
         height: 30px;
         border: 0;
+        border-radius: 0;
     }
 
     .nav-btn:hover{
