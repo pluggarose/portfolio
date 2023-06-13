@@ -533,6 +533,10 @@ p + p {
         border: 0;
     }
 
+    .nav-btn:hover{
+        background-color: transparent;
+    }
+
     .nav-btn_close{
         background-image: url(../img/menu-btn/close.svg);
     }
