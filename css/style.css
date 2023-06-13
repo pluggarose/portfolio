@@ -579,6 +579,10 @@ p + p {
     .contacts a{
         padding: 7px 0 7px 42px;
     }
+
+    .main-nav_closed{
+        display: none;
+    }
 }
 
 
