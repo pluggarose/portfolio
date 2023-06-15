@@ -110,7 +110,7 @@ const changeTheme = (theme) => {
     } else {
         document.body.classList.add('dark-theme');
     }
-    localStorage.setItem('dark-theme-flag', theme);
+    localStorage.setItem('light-theme-flag', theme);
 }
 
 const checkbox = document.querySelector(".switch-checkbox");
@@ -118,7 +118,7 @@ checkbox.addEventListener("change", () => {
     changeTheme(checkbox.checked);
 });
 
-const darkThemeLoaded = localStorage.getItem('dark-theme-flag');
+const darkThemeLoaded = localStorage.getItem('light-theme-flag');
 if (darkThemeLoaded === null || darkThemeLoaded === "false") {
     changeTheme(false);
     checkbox.checked = false;
