@@ -53,9 +53,9 @@ const skill = {
 
 const skillList = document.querySelector("dl.skill-list");
 
-skill.initList('db/skills.json', skillList);
+const skillsRemove = document.querySelector('.skills');
 
-skill.generateList(skillList);
+skill.initList('db/skills.json', skillList, skillsRemove);
 
 sortBtnBlock = document.querySelector("div.skills-sort");
 sortBtnBlock.addEventListener('click', (e) => {
