@@ -1,0 +1,32 @@
+[
+    {
+        "item": "html",
+        "level": 15,
+        "iconPath": "img/html.svg"
+    },
+    {
+        "item": "css",
+        "level": 10,
+        "iconPath": "img/css.svg"
+    },
+    {
+        "item": "figma",
+        "level": 5,
+        "iconPath": "img/figma.svg"
+    },
+    {
+        "item": "C++",
+        "level": 25,
+        "iconPath": "img/c++.svg"
+    },
+    {
+        "item": "java",
+        "level": 35,
+        "iconPath": "img/photoshop.svg"
+    },
+    {
+        "item": "photoshop",
+        "level": 21,
+        "iconPath": "img/c++.svg"
+    }
+]

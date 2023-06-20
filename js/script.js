@@ -1,34 +1,5 @@
 const skill = {
-    data: [{
-        item: "html",
-        level: 15,
-        iconPath: "img/html.svg",
-    },
-    {
-        item: "css",
-        level: 10,
-        iconPath: "img/css.svg",
-    },
-    {
-        item: "figma",
-        level: 5,
-        iconPath: "img/figma.svg",
-    },
-    {
-        item: "C++",
-        level: 25,
-        iconPath: "img/c++.svg",
-    },
-    {
-        item: "java",
-        level: 35,
-        iconPath: "img/photoshop.svg",
-    },
-    {
-        item: "photoshop",
-        level: 21,
-        iconPath: "img/c++.svg",
-    }],
+    data: [],
     isSorted: false,
     generateList: function(parentElement) {
         parentElement.innerHTML = '';
@@ -65,11 +36,26 @@ const skill = {
             this.data.reverse();
         }
         this.generateList(document.querySelector("dl.skill-list"));
+    },
+    initList: function(url,parentElement,skillSection){
+        fetch(url)
+        .then(data => data.json())
+        .then(object =>{
+            this.data = object;
+            this.generateList(parentElement);
+        })
+        .catch(()=>{
+            console.error('smth wrong');
+            skillSection.remove(); 
+        })
     }
 };
 
-skill.generateList(document.querySelector("dl.skill-list"));
+const skillList = document.querySelector("dl.skill-list");
 
+skill.initList('db/skills.json', skillList);
+
+skill.generateList(skillList);
 
 sortBtnBlock = document.querySelector("div.skills-sort");
 sortBtnBlock.addEventListener('click', (e) => {
@@ -126,3 +112,4 @@ if (darkThemeLoaded === null || darkThemeLoaded === "false") {
     changeTheme(true);
     checkbox.checked = true;
 }
+
